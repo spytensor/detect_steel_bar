@@ -11,7 +11,7 @@
 step0: 安装
 
 ```
-git clone https://github.com/spytensor/detect_steel_bar
+git clone https://github.com/spytensor/detect_steel_bar.git
 detect_steel_bar/retinanet/lib/
 bash build.sh
 cd ../../
