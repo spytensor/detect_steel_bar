@@ -1,3 +1,13 @@
+## 提醒
+
+由于个人版本修改较多，记不清哪个配置可以达到线上0.97。
+
+可修改的地方:
+
+1. dataloader.py 中Resize函数的图像尺寸，越大效果越好。
+2. main.py 中的模型 depth ，越大效果越好。
+3. 更有效的办法就是做数据扩充，增加数据量。
+
 ## 1. 比赛地址
 
 [智能盘点—钢筋数量AI识别](https://www.datafountain.cn/competitions/332/details)
