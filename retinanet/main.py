@@ -114,6 +114,9 @@ def main(args=None):
     retinanet.module.freeze_bn()
     if not os.path.exists("./logs"):
         os.mkdir("./logs")
+    if not os.path.exists('best_models'): 
+        os.makedirs('best_models')
+    
     log_file = open("./logs/log.txt","w")
     print('Num training images: {}'.format(len(dataset_train)))
     best_map = 0
